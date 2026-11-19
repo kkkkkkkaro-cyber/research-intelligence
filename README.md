@@ -11,13 +11,6 @@ Location: [`statistical-diagnostic-analyst/`](statistical-diagnostic-analyst/)
 
 Diagnoses survey measurement quality, regression assumptions, influential observations, mediation/moderation models, cross-group comparability, and robustness.
 
-**Core principles**
-- Do not delete items or observations based on a single statistic.
-- Distinguish reliability, convergent validity, discriminant validity, multicollinearity, and model fit.
-- Document decisions and sensitivity checks.
-- Separate pilot-stage exploration from confirmatory main-study analysis.
-- Treat cross-sectional self-report findings as associations, not causal proof.
-
 ### Research Design Architect
 Location: [`research-design-architect/`](research-design-architect/)
 
@@ -39,7 +32,17 @@ Supports database search strategies, transparent screening, PRISMA 2020 reportin
 ```text
 research-intelligence/
 ├── README.md
-└── statistical-diagnostic-analyst/
+├── statistical-diagnostic-analyst/
+│   ├── README.md
+│   ├── SKILL.md
+│   ├── references/
+│   └── examples/
+├── research-design-architect/
+│   ├── README.md
+│   ├── SKILL.md
+│   ├── references/
+│   └── examples/
+└── systematic-review-analyst/
     ├── README.md
     ├── SKILL.md
     ├── references/
@@ -48,11 +51,11 @@ research-intelligence/
 
 ## Case-based documentation
 
-The skill includes two anonymised methodological case examples based on a virtual-idol tourism research project:
+The statistical skill includes anonymised examples from a virtual-idol tourism research project:
 - Pilot study (N=50): item diagnostics, regression, multicollinearity, influential observations, and sensitivity analysis.
 - Main study (N=300; sensitivity N=250): CFA, CR, AVE, HTMT, measurement invariance, mediation, moderation, and pilot-wave sensitivity.
 
-The numerical results are examples from the documented project, not universal thresholds or default recommendations.
+The design and systematic-review skills also include case-based guidance. Project figures are examples from the documented work, not universal thresholds or default recommendations.
 
 ## Roadmap
 
