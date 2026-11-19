@@ -18,6 +18,22 @@ Diagnoses survey measurement quality, regression assumptions, influential observ
 - Separate pilot-stage exploration from confirmatory main-study analysis.
 - Treat cross-sectional self-report findings as associations, not causal proof.
 
+### Research Design Architect
+Location: [`research-design-architect/`](research-design-architect/)
+
+Structures research problems, gaps, questions, theory, constructs, sampling, feasibility, ethics, and supervisor feedback into an aligned research design.
+
+### Systematic Review Analyst
+Location: [`systematic-review-analyst/`](systematic-review-analyst/)
+
+Supports database search strategies, transparent screening, PRISMA 2020 reporting, evidence synthesis, and defensible research-gap identification.
+
+**Core principles**
+- Never invent search counts, dates, screening decisions, or study characteristics.
+- Distinguish database results, exported records, screened records, and prioritised reading lists.
+- Report reviewer roles and screening stages accurately.
+- Build research-gap claims from patterns in the evidence, not assumptions about what has not been studied.
+
 ## Repository structure
 
 ```text
@@ -41,8 +57,8 @@ The numerical results are examples from the documented project, not universal th
 ## Roadmap
 
 - [x] v0.1: Statistical Diagnostic Analyst
-- [ ] Research Design Architect
-- [ ] Systematic Review Analyst
+- [x] v0.1: Research Design Architect
+- [x] v0.1: Systematic Review Analyst
 - [ ] Academic Decision Assistant
 - [ ] Research Methodology Auditor
 
